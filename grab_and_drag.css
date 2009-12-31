@@ -1,0 +1,12 @@
+:root[data-grab_and_drag="selecting"] {
+}
+
+:root[data-grab_and_drag="waiting"] {
+  cursor: -webkit-grab;
+}
+
+:root[data-grab_and_drag="grabbing"] {
+  cursor: -webkit-grabbing;
+  -webkit-user-select: none;
+}
+

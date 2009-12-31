@@ -1,0 +1,22 @@
+{
+  "name": "Grab and Drag",
+  "version": "1.0",
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "css": [
+        "grab_and_drag.css"
+      ],
+      "js": [
+        "grab_and_drag.js"
+      ]
+    }
+  ]
+}

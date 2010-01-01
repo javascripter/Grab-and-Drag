@@ -26,6 +26,9 @@ judging.mousemove = function (e) {
     trans(grabbing);
   }
 };
+judging.mouseup = function () {
+  trans(waiting);
+};
 
 var grabbing = Object.create(orig);
 grabbing.name = "grabbing";
